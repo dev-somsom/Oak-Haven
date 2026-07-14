@@ -1,2 +1,2 @@
 # Oak-Haven
-A furniture store template i crated. 
+A furniture store template that i created. 
