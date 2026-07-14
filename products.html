@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Oak & Haven</title>
+
+    
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="page">
+        <header class="site-header">
+            <div class="header-inner">
+                
+                
+                <nav class="navbar">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="Assets/Logo/Oak_&_Haven_logo.png" alt="logo">
+                        </a>
+                        
+                    </div>
+                    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    
+
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                </nav>
+            </div>
+        </header>
+
+        <div id="overlay"></div>
+        <main>
+            <section class="breadcrumb">
+                <div class="container">
+
+                    <a href="index.html">Home</a>
+
+                    <span>&gt;</span>
+
+                    <span>Products</span>
+
+                </div>
+            </section>
+
+            <section class="products container">
+                <div class="section-header">
+                    <h3>Furniture Collection</h3>
+                </div>
+
+                <div class="filter-buttons">
+
+                    <button class="filter-btn active" data-filter="all">
+                        All
+                    </button>
+
+                    <button class="filter-btn" data-filter="living">
+                        Living Room
+                    </button>
+
+                    <button class="filter-btn" data-filter="bedroom">
+                        Bedroom
+                    </button>
+
+                    <button class="filter-btn" data-filter="dining">
+                        Dining
+                    </button>
+
+                    <button class="filter-btn" data-filter="office">
+                        Office
+                    </button>
+
+                    <button class="filter-btn" data-filter="outdoor">
+                        Outdoor
+                    </button>
+
+                    <button class="filter-btn" data-filter="kids">
+                        Kids
+                    </button>
+
+                </div>
+
+
+                <div class="cards">
+                    <a href="#" class="product-card" data-category="living" data-id="1">
+                        <img src="Assets/Images/L-sofa.jpg" alt="sofa">
+                        <h5>Luxury L-Shaped Sofa</h5>
+                        <p>&#8358;1,250,000</p>
+                    </a>
+
+                    <a href="#" class="product-card" data-category="living" data-id="2">
+                        <img src="Assets/Images/Unique-coffee-table.jpg" alt="coffee table">
+                        <h5>Coffee Table</h5>
+                        <p>&#8358;350,000</p>
+                    </a>
+
+                    <a href="#" class="product-card" data-category="bedroom" data-id="3">
+                        <img src="Assets/Images/queen-size-bed.jpg" alt="queen size bed">
+                        <h5>Queens Bed</h5>
+                        <p>&#8358;850,000</p>
+                    </a>
+
+                    <a href="#" class="product-card" data-category="bedroom" data-id="4">
+                        <img src="Assets/Images/wardrobes-gray.jpg" alt="">
+                        <h5>Wardrobe</h5>
+                        <p>&#8358;600,000</p>
+                    </a>
+
+                    <a href="#" class="product-card" data-category="office" data-id="5">
+                        <img src="Assets/Images/office-chair-brown.jpg" alt="office chair">
+                        <h5>Executive Chair</h5>
+                        <p>&#8358;220,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="office" data-id="6">
+                        <img src="Assets/Images/office-furniture-set.png" alt="office set">
+                        <h5>Office Set</h5>
+                        <p>&#8358;630,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="outdoor" data-id="7">
+                        <img src="Assets/Images/Fire-Pit-scaled.jpg" alt="Outdoor set">
+                        <h5>Outdoor Sofa</h5>
+                        <p>&#8358;400,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="living" data-id="8">
+                        <img src="Assets/Images/simple-coffee-table.jpg" alt="">
+                        <h5>Coffee Table</h5>
+                        <p>&#8358;120,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="bedroom" data-id="9">
+                        <img src="Assets/Images/wood-wardrobe.jpg" alt="wooding wardrobe">
+                        <h5>Wardrobe</h5>
+                        <p>&#8358;500,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="living" data-id="10">
+                        <img src="Assets/Images/Single-sofa.jpg" alt="sofa">
+                        <h5>Single Sofa</h5>
+                        <p>&#8358;180,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="kids" data-id="11">
+                        <img src="Assets/Images/baby-bed.jpg" alt="kids-bed">
+                        <h5>Kids bed</h5>
+                        <p>&#8358;200,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="office" data-id="12">
+                        <img src="Assets/Images/office-desk.jpg" alt="office table">
+                        <h5>Office Table</h5>
+                        <p>&#8358;350,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="living" data-id="13">
+                        <img src="Assets/Images/Brown-Sofa.jpg" alt="brown sofa">
+                        <h5>Sofa</h5>
+                        <p>&#8358;780,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="bedroom" data-id="14">
+                        <img src="Assets/Images/white-king-size-bed.jpg" alt="King Size bed">
+                        <h5>King Size bed</h5>
+                        <p>&#8358;950,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="dining" data-id="15">
+                        <img src="Assets/Images/Square-dinning-set.jpg" alt="Dinning Set">
+                        <h5>Dinning Set</h5>
+                        <p>&#8358;600,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="kids" data-id="16">
+                        <img src="Assets/Images/kids furniture.jfif" alt="kids furniture">
+                        <h5>Kids bed</h5>
+                        <p>&#8358;480,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="outdoor" data-id="17">
+                        <img src="Assets/Images/Outdoor-dinning.jpg" alt="Outdoor Dining Set">
+                        <h5>Outdoor Dining Set</h5>
+                        <p>&#8358;250,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="living" data-id="18">
+                        <img src="Assets/Images/Side-shelf.jpg" alt="Side">
+                        <h5>Side Shelf</h5>
+                        <p>&#8358;200,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="living" data-id="19">
+                        <img src="Assets/Images/Glass-n-face-coffee-table.jpg" alt="glass coffee table">
+                        <h5>Coffee table</h5>
+                        <p>&#8358;280,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="dining" data-id="20">
+                        <img src="Assets/Images/modern-dinning-set.jpg" alt="Dining Set">
+                        <h5>Dining Set</h5>
+                        <p>&#8358;1,200,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="living" data-id="21">
+                        <img src="Assets/Images/wall-mount-shelf.jpg" alt="Shelf">
+                        <h5>Shelf</h5>
+                        <p>&#8358;160,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="outdoor" data-id="22">
+                        <img src="Assets/Images/outdoor-set.jpg" alt="Outdoor">
+                        <h5>Outdoor Set</h5>
+                        <p>&#8358;310,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="living" data-id="23">
+                        <img src="Assets/Images/Nice-side-table.jpg" alt="side table">
+                        <h5>Side Table</h5>
+                        <p>&#8358;80,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="living" data-id="24">
+                        <img src="Assets/Images/Round-coffee-table.jpg" alt="round coffee table">
+                        <h5>Coffee table</h5>
+                        <p>&#8358;220,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="kids" data-id="25">
+                        <img src="Assets/Images/kids-bed.jpg" alt="Kids Bed">
+                        <h5>Kids bed</h5>
+                        <p>&#8358;175,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="living" data-id="26">
+                        <img src="Assets/Images/Tv-console.jpg" alt="Tv console">
+                        <h5>Tv console</h5>
+                        <p>&#8358;185,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="bedroom" data-id="27">
+                        <img src="Assets/Images/bedside-table.jpg" alt="bedside shelf">
+                        <h5>Beside Shelf</h5>
+                        <p>&#8358;160,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="kids" data-id="28">
+                        <img src="Assets/Images/tedy-bear-kids-bed.jpg" alt="kids bed">
+                        <h5>Kids bed</h5>
+                        <p>&#8358;225,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="office" data-id="29">
+                        <img src="Assets/Images/Executive-Desk-with-Leather-Inlay-Return-Pedestal-In-Office-Setting.jpg" alt="office set">
+                        <h5>Office Set</h5>
+                        <p>&#8358;450,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="outdoor" data-id="30">
+                        <img src="Assets/Images/Outdoor-sofa-set.jpg" alt="Outdoor sofa set">
+                        <h5>Outdoor Sofa set</h5>
+                        <p>&#8358;585,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="dining" data-id="31">
+                        <img src="Assets/Images/Marble-or-Wood-What-Type-of-Dining-Table-Should-You-Buy-8-640x400.jpg" alt="dining Set">
+                        <h5>Marble Dining Set</h5>
+                        <p>&#8358;1,450,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="dining" data-id="32">
+                        <img src="Assets/Images/simple-dinning-set.jpg" alt="white dining set">
+                        <h5>White Dining Set</h5>
+                        <p>&#8358;1,155,000</p>
+                    </a>
+                    <a href="#" class="product-card" data-category="outdoor" data-id="33">
+                        <img src="Assets/Images/Hanging-sofa.jpg" alt="Swing chair">
+                        <h5>Swing Chair</h5>
+                        <p>&#8358;100,000</p>
+                    </a>
+
+                </div>
+            </section>
+
+            <section class="section-alt contact">
+                <div class="container">
+                    <div class="section-header fade-in text-measure">
+                        <h2>Get in Touch</h2>
+                        <p>
+                            Whether you're furnishing your home, office, or commercial space,
+                            our team is here to help you choose the perfect furniture.
+                        </p>
+                    </div>
+
+                  <div class="contact-grid">
+                    <div class="contact-info fade-in">
+                        <h4>Contact Us</h4>
+
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+234 800 000 0000</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@yourstore.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>123 Furniture Avenue, Lagos</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Mon - Sat: 9:00 AM - 6:00 PM</span>
+                        </div> 
+                        
+                        <a href="#" class="chat-btn">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+
+
+                    <div class="contact-form fade-in">
+                        <h4> Contact Form</h4>
+                        
+                     <form id="quoteForm" class="quote-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Your Phone Number</label>
+                            <input type="tel" id="phone" placeholder="Your Phone Number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Tell us what you need</label>
+                            <textarea id="message" placeholder="Tell us what you need" required></textarea>
+                        </div>
+
+                        <div id="formMessage"></div>
+                        <div class="form button">
+                            <button type="submit">Submit Request</button>
+                        </div>
+                     </form>
+                     
+                    </div>
+                 </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+
+                <div class="footer-content fade-in">
+
+                    <div class="footer-column">
+                      <div class="logo">
+                        <a href="index.html">
+                           <img src="Assets/Logo/Oak_&_Haven_logo.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <div>
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-column fade-in">
+                    <h4>Follow Us</h4>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="X (Twitter)">
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="footer-column fade-in">
+                    <h4>Contact Information</h4>
+
+                   <p><i class="fa-solid fa-phone"></i>+234 800 000 0000</p>
+                   <p><i class="fa-solid fa-envelope"></i> info@furniturecompany.com</p>
+                   <p><i class="fa-solid fa-location-dot"></i>123 Furniture Avenue, Lagos</p>
+                   <p><i class="fa-solid fa-business-time"></i> Mon-Fri 8am - 6pm</p>
+                </div>
+
+                </div>
+
+                <div class="footer-bottom fade-in">
+                    <p>&copy; 2026 Oak & Haven. All rights reserved.</p>
+                </div>
+
+            </footer>
+
+        </main>
+    </div>
+    <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <a
+        href="https://wa.me/2348012345678?text=Hello%20[business]%20[Name],%20I%20would%20like%20to%20request%20a%20quote."
+        class="whatsapp-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="JS/java.js" defer></script>
+</body>
+    
+</html>

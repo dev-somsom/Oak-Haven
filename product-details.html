@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Oak & Haven</title>
+
+    
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="page">
+        <header class="site-header">
+            <div class="header-inner">
+                
+                
+                <nav class="navbar">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="Assets/Logo/Oak_&_Haven_logo.png" alt="logo">
+                        </a>
+                        
+                    </div>
+                    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    
+
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                </nav>
+            </div>
+        </header>
+
+        <div id="overlay"></div>
+        <main>
+            <section class="breadcrumb">
+                <div class="container">
+
+                    <a href="index.html">Home</a>
+
+                    <span>&gt;</span>
+
+                    <a href="products.html">Products</a>
+
+                    <span>&gt;</span>
+
+                    <span id="breadcrumbCategory"></span>
+
+                    <span>&gt;</span>
+
+                    <span id="breadcrumbProduct"></span>
+
+                </div>
+            </section>
+
+            <section class="product-details container">
+
+                <div class="product-image">
+
+                    <img id="productImage" src="" alt="">
+
+                </div>
+
+                <div class="product-info">
+
+                    <h1 id="productName"></h1>
+
+                    <div class="rating">
+
+                        ★★★★★
+
+                    </div>
+
+                    <div class="product-meta">
+
+                        <p id="productDescription"></p>
+
+                        <p><strong>Price:</strong>
+                            <span class="price" id="productPrice"></span>
+                        </p>
+
+                        <p><strong>Material:</strong>
+                            <span id="productMaterial"></span>
+                        </p>
+
+                       <p>
+                            <strong>Availability:</strong>
+                            <span id="productStock"></span>
+                        </p>
+
+                        <p><strong>Category:</strong> <span id="productCategory"></span></p>
+
+                        <p><strong>SKU:</strong> <span id="productSku"></span></p>
+
+                        <p><strong>Brand:</strong> <span id="productBrand"></span></p>
+
+                        <p><strong>Warranty:</strong> <span id="productWarranty"></span></p>
+
+                        <p><strong>Delivery:</strong> Nationwide</p>
+
+                    </div>
+
+                    <a href="#" class="chat-btn" id="whatsappBtn">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Order via WhatsApp
+                    </a>
+
+                </div>
+
+            </section>
+
+
+
+
+            <section class="section-alt">
+                <div class="container">
+
+                    <h4 class="section-header">You May Also Like</h4>
+                    <div class="cards">
+                        <a href="product-details.html" class="product-card">
+                            <img src="Assets/Images/Nice-side-table.jpg" alt="side table">
+                            <div class="card-content">
+                                <h5>Side Table</h5>
+                            </div>
+                        </a>
+                        <a href="product-details.html" class="product-card">
+                            <img src="Assets/Images/Unique-coffee-table.jpg" alt="coffee table">
+                            <div class="card-content">
+                                <h5>Coffee Table</h5>
+                            </div>
+                        </a>
+                        <a href="product-details.html" class="product-card">
+                            <img src="Assets/Images/Single-sofa.jpg" alt="Sofa">
+                            <div class="card-content">
+                                <h5>Single Sofa</h5>
+                            </div>
+                        </a>
+                        <a href="product-details.html" class="product-card">
+                            <img src="Assets/Images/hanging-tv-console.jpg" alt="Tv console">
+                            <div class="card-content">
+                                <h5>Tv console</h5>
+                            </div>
+                        </a>
+
+                </div>
+
+                </div>
+            </section>
+
+
+            <footer class="footer">
+
+                <div class="footer-content fade-in">
+
+                    <div class="footer-column">
+                      <div class="logo">
+                        <a href="index.html">
+                           <img src="Assets/Logo/Oak_&_Haven_logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div>
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="footer-column fade-in">
+                    <h4>Follow Us</h4>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="X (Twitter)">
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="footer-column fade-in">
+                    <h4>Contact Information</h4>
+
+                   <p><i class="fa-solid fa-phone"></i> +234 800 000 0000</p>
+                   <p><i class="fa-solid fa-envelope"></i> info@furniturecompany.com</p>
+                   <p><i class="fa-solid fa-location-dot"></i> 123 Furniture Avenue, Lagos/p>
+                   <p><i class="fa-solid fa-business-time"></i> Mon-Fri 8am - 6pm</p>
+                </div>
+
+                </div>
+
+                <div class="footer-bottom fade-in">
+                    <p>&copy; 2026 Oak & Haven. All rights reserved.</p>
+                </div>
+
+            </footer>
+
+        </main>
+    </div>
+    <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <a
+        href="https://wa.me/2348012345678?text=Hello%20[business]%20[Name],%20I%20would%20like%20to%20request%20a%20quote."
+        class="whatsapp-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="JS/java.js" defer></script>
+</body>
+    
+</html>

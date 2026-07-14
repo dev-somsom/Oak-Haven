@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Oak & Haven</title>
+
+    
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/java.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="page">
+        <header class="site-header">
+            <div class="header-inner">
+                
+                
+                <nav class="navbar">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="Assets/Logo/Oak_&_Haven_logo.png" alt="logo">
+                        </a>
+                        
+                    </div>
+                    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    
+
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                </nav>
+            </div>
+
+
+        </header>
+        <div id="overlay"></div>
+        <main>
+            <section class="breadcrumb">
+                
+                <div class="container">
+
+                    <a href="index.html">Home</a>
+
+                    <span>&gt;</span>
+
+                    <span>Contact</span>
+
+                </div>
+                
+                <div class="hero contact-hero">
+                    <h1>Contact Us</h1>
+                    <p>
+                        Have questions about our furniture or need help finding the perfect piece?<br>
+                        We'd love to hear from you.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-alt contact">
+                <div class="container">
+                    <div class="section-header text-measure fade-in">
+                        <h2>Get in Touch</h2>
+                        <p>
+                            Whether you're furnishing your home, office, or commercial space,
+                            our team is here to help you choose the perfect furniture.
+                        </p>
+                    </div>
+
+                  <div class="contact-grid">
+                    <div class="contact-info fade-in">
+                        <h4>Contact Info</h4>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>123 Furniture Avenue, Your City</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+234 800 000 0000</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@yourstore.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Mon - Sat: 9:00 AM - 6:00 PM</span>
+                        </div> 
+                        
+                        <a href="#" class="chat-btn">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+
+
+                    <div class="contact-form fade-in">
+                        <h4> Contact Form</h4>
+                        
+                     <form id="quoteForm" class="quote-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Your Phone Number</label>
+                            <input type="tel" id="phone" placeholder="Your Phone Number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Tell us what you need</label>
+                            <textarea id="message" placeholder="Tell us what you need" required></textarea>
+                        </div>
+
+                        <div id="formMessage"></div>
+                        <div class="form button">
+                            <button type="submit">Submit Request</button>
+                        </div>
+                     </form>
+                     
+                    </div>
+                 </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+
+                <div class="footer-content fade-in">
+
+                    <div class="footer-column">
+                      <div class="logo">
+                        <a href="index.html">
+                           <img src="Assets/Logo/Oak_&_Haven_logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div>
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-column fade-in">
+                    <h4>Follow Us</h4>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="X (Twitter)">
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="footer-column fade-in">
+                    <h4>Contact Information</h4>
+
+                   <p><i class="fa-solid fa-phone"></i>+234 800 000 0000</p>
+                   <p><i class="fa-solid fa-envelope"></i> info@furniturecompany.com</p>
+                   <p><i class="fa-solid fa-location-dot"></i> 123 Furniture Avenue, Lagos</p>
+                   <p><i class="fa-solid fa-business-time"></i> Mon-Fri 8am - 6pm</p>
+                </div>
+
+                </div>
+
+                <div class="footer-bottom fade-in">
+                    <p>&copy; 2026 Oak & Haven. All rights reserved.</p>
+                </div>
+
+            </footer>
+
+        </main>
+    </div>
+    <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <a
+        href="https://wa.me/2348012345678?text=Hello%20[business]%20[Name],%20I%20would%20like%20to%20request%20a%20quote."
+        class="whatsapp-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</body>
+    
+</html>
