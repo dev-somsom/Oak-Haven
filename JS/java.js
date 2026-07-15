@@ -775,7 +775,7 @@ if (productName) {
         
         Please let me know its avalability.`;
 
-        whatsappBtn.href = `http://wame/${phone}?text=${encodeURIComponent(message)}`;
+        whatsappBtn.href = `http://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
     }
 
