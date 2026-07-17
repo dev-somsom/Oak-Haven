@@ -1288,7 +1288,9 @@ body.no-scroll{
     .nav-links a:active{
         color: #664c28;
     }
-
+    .category-card:active::before{
+        opacity: 1;
+    }
 
     .quote-section {
         grid-template-columns: 1fr;
