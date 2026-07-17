@@ -510,6 +510,14 @@ body.no-scroll{
     line-height: 1.5;
     transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
+.card h4, .card h5 {
+    font-size: var(--text-md);
+    margin-top: var(--space-1);
+    margin-bottom: var(--space-1);
+}
+.card p {
+    margin-bottom: var(--space-2);
+}
 .category-card{
     position: relative;
     display: block;
@@ -561,18 +569,31 @@ body.no-scroll{
     transform: scale(1.08);
     box-shadow: 0 10px 25px rgba(0,0,0,.15);
 }
-.card h4 {
-    font-size: var(--text-md);
-    margin-top: var(--space-1);
-    margin-bottom: var(--space-1);
+.category-card h4{
+    display: inline-block;
+    padding: 12px 24px;
+    border: 2px solid #664c28;
+    border-radius: 50px;
+    color: #fff;
+    background: rgba(255,255,255,.08);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    transition: .3s ease;
 }
-.card h5 {
-    font-size: var(--text-md);
-    margin-top: var(--space-1);
-    margin-bottom: var(--space-1);
+.category-card:hover h4,
+.category-card:active h4{
+    background: #664c28;
+    border-color: white;
+    transform: translateY(-2px);
 }
-.card p {
-    margin-bottom: var(--space-2);
+.category-card i{
+    margin-left: 8px;
+    transition: transform .3s ease;
+}
+
+.category-card:hover i{
+    transform: translateX(6px);
 }
 .product-card {
     width: 100%;
